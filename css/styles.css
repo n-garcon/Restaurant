@@ -1,0 +1,397 @@
+/*********************/
+/** GENERAL SETTING **/
+/*********************/
+body, ul, li {
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    font-size:35px;
+    text-align: center;
+}
+
+.yellow-font {
+    color: #dab33e;
+}
+
+.grey-font {
+    color: #4c4c4c;
+}
+
+.white-font {
+    color: white;
+}
+.divider {
+    display: block;
+    margin:auto;
+}
+
+.description {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.4;
+    font-weight: 400;
+}
+
+/*********************/
+/******* HEADER *******/
+/*********************/ 
+
+header {
+    background-image: url('../images/main-bg.jpg');
+    background-size: cover;
+    
+}
+
+nav {
+    width : 1200px;
+    margin : auto;
+    display:flex;
+    justify-content:space-between;
+}
+nav ul {
+    display :inline-flex;
+}
+
+
+
+li {
+    display : inline-block;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration:none;
+    font-weight : bold;
+    font-size : 18px;
+    font-family : 'Gentium Book Basic', serif; 
+    color : white; 
+}
+
+nav li {
+    padding: 25px 20px;
+}
+ 
+
+#main-navbar li{
+    border-top : 3px solid transparent;
+}
+
+#main-navbar li:hover{
+    border-top : 3px solid white;
+}
+
+
+#main-icons a {
+    color: #dab33e;
+
+}
+
+#main-heading {
+    color: #fff;
+    font-size: 70px;
+    margin-top: 150px;
+    margin-bottom: 0px;
+    font-family: 'Yeseva One', cursive;
+    text-shadow: 0px 1px 2px rgba(1, 1, 1, 0.6);
+    text-align: center;
+}
+
+#header-divider {
+    display: block;
+    margin: 50px auto;
+}
+
+#callToAction {
+    display:block;
+    margin: 0px;
+    padding-bottom:120px;
+    
+}
+
+#callToAction div{
+    display:flex;
+    margin: auto;
+    width:550px;
+    justify-content:space-between;
+    
+}
+
+
+
+#callToAction li a {
+    font-size:18px;
+    font-weight:200;
+    font-family: "Lato", sans-serif;
+}
+
+.btn {
+    padding: 1rem 4rem;
+ 
+    text-align:center;
+    font-weight: lighter;
+    opacity:0.6; 
+}
+
+.btn:hover {
+    opacity:0.8;
+}
+
+.btn-black {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+
+.btn-white {
+    background-color: grey;
+    border: 1px solid white;
+    color: white;
+}
+
+/*********************/
+/******* ABOUT *******/
+/*********************/
+
+
+#about {
+    background: url('../images/pattern-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 4rem;;
+}
+
+#about>div{
+    display: flex;
+    width:1000px;
+    justify-content: center;
+    margin: auto;
+}
+
+#about article {
+    width: 500px;
+}
+
+#about p {
+    width:85%;
+    margin:2rem auto;
+}
+
+#about>div>img {
+   
+    width: 500px;
+    height:500px;
+}
+
+#cook-img {
+    display:block;
+    margin:auto;
+}
+
+/*********************/
+/**** INGREDIENTS ****/
+/*********************/
+
+#ingredients>div {
+    width:1200px;
+    margin: auto; 
+    text-align: right;
+}
+
+#ingredients article {
+    display: inline-block;
+    box-sizing: border-box;
+    background-image: url('../images/text-bg-fine-ingredients.png');
+    width:500px;
+    padding:50px;
+    margin: 80px 0px 120px 0px;
+
+}
+
+#ingredients ul{
+    display:flex;
+    justify-content: space-between;
+}
+
+#ingredients {
+    background-image: url('../images/fine-ingredients-bg.jpg');
+    size: cover;
+    background-repeat: no-repeat;
+
+}
+
+/*********************/
+/******** MENU ********/
+/*********************/
+
+#menu>div {
+    width:1000px;
+    margin: auto; 
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#menu>div>section {
+    display: block;
+    box-sizing:border-box;
+    width:50%;
+    padding:50px;
+}
+
+.dish {
+    
+}
+
+.menu-item {
+    margin-top:1rem;,
+}
+
+.dish {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Yeseva One", cursive;
+    color: #dab33e;
+    border-bottom: 0.5px solid #dab33e;
+    padding-bottom: 0.5rem;
+}
+
+
+.dish-description {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin-top: 0.5rem;
+}
+
+
+
+/*********************/
+/****** REVIEWS ******/
+/*********************/
+
+#reviews {
+    padding-top: 65px;
+    padding-bottom: 70px;
+}
+
+#testimony {
+    box-sizing: border-box;
+    background-image: url(../images/review-descrption-bg.png);
+    width:770px;
+    margin: auto;
+    padding:50px 30px;
+    text-align: center;
+}
+
+#reviews {
+    background-image: url(../images/reviews-bg.jpg);
+    size:cover;
+}
+
+#testimony-p {
+    box-sizing : border-box;
+    padding:0 20px;
+    font-family: "Gentium Book", serif;
+    font-size: 22px;
+    font-weight: bold;
+    line-height:220%;
+    letter-spacing: 2px ;
+    
+}
+
+#testimony-author {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+
+/*********************/
+/**** RESERVATION ****/
+/*********************/
+
+#reservation>div {
+    width:1200px;
+    box-sizing:border-box;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+
+#reservation-img-container {
+    display: flex;
+    justify-content: space-between;
+    min-width:570px;
+    max-width:580px;
+}
+
+#reservation article {
+    box-sizing: border-box;
+    padding: 0px 40px;
+    min-width:570px;
+    max-width:580px;
+}
+
+#reservation p {
+    text-align: center;
+}
+
+.form-group {
+/*    margin: 0px 70px;*/
+    display:flex;
+    justify-content:space-between;
+}
+
+.form-group label {
+    display:block;
+    color: #dab33e;
+    font-weight:bold;
+    margin-bottom: 0.5rem;
+}
+
+.form-element input, .form-element select {
+    display:block;
+    color: grey;
+    font-style: italic;
+    padding:0.3rem;
+    margin-bottom:0.5rem;
+    width: 200px;
+    margin-bottom: 0.5rem;
+}
+
+#reservation form button {
+    display: block;
+    margin:20px auto;
+    border:none;
+    background-color:#dab33e;
+    color:white;
+    width:200px;
+    padding:0.5rem;
+    font-family:"Open Sans", sans-serif;
+}
+
+
+
+/*********************/
+/******* FOOTER *******/
+/*********************/
+
+
+footer {
+    text-align:center;
+    display: flex; 
+    justify-content: space-between;
+    padding:30px 200px;
+}
+
+footer article:first-child {
+    width:45%;
+}
+
+footer:not(article:first-child) {
+    width:35%;
+}
+
